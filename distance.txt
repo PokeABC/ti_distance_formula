@@ -1,0 +1,39 @@
+Menu("Distance Calculation","One-Dimensional",1,"Two-Dimensional",2,"Three-Dimensional",3,"Quit",4
+
+Lbl 1
+Input "Point 1: ",A
+Input "Point 2: ",B
+abs(A-B)→C
+Disp "Distance = ",C
+Disp "CREATED BY:"
+Disp "PokeABC on Github"
+Stop
+
+Lbl 2
+Input "Point 1 X: ",A
+Input "Point 1 Y: ",B
+Input "Point 2 X: ",C
+Input "Point 2 Y: ",D
+((A-C)^2)+((B-D)^2)→E
+Disp "Distance = √",E
+Disp "Or it can be written as ",√(E)
+Disp "CREATED BY:"
+Disp "PokeABC on Github"
+Stop
+
+Lbl 3
+Input "Point 1 X: ",A
+Input "Point 1 Y: ",B
+Input "Point 1 Z: ",C
+Input "Point 2 X: ",D
+Input "Point 2 Y: ",E
+Input "Point 2 Z: ",F
+((A-D)^2)+((B-E)^2)+((C-F)^2)→G
+Disp "Distance = √",G
+Disp "Or it can be written as ",√(G)
+Disp "CREATED BY:"
+Disp "PokeABC on Github"
+Stop
+
+Lbl 4
+ClrHome
